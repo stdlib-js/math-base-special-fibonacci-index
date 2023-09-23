@@ -65,6 +65,11 @@ where `φ` is the [golden ratio][golden-ratio] and `F > 1`.
 ## Usage
 
 ```javascript
+import fibonacciIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci-index@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-fibonacci-index/tags). For example,
+
+```javascript
 import fibonacciIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci-index@v0.1.0-deno/mod.js';
 ```
 
@@ -117,7 +122,7 @@ var n = fibonacciIndex( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import fibonacciIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci-index@v0.1.0-deno/mod.js';
+import fibonacciIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci-index@deno/mod.js';
 
 var F1;
 var F2;
